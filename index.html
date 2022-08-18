@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header class="mt-6">
+        <h1 class="bg-cyan-500 text-5xl mx-auto w-1/2 text-center p-6 rounded-lg text-white">Discount Price</h1>
+    </header>
+    <main>
+        <section class="mt-12 bg-red-400 w-1/2 text-center mx-auto py-6 rounded-lg">
+            <div>
+                <h3 id="price-text" class="text-3xl text-white">Original Price</h3>
+                <h4 class="text-2xl mt-4">Price: <span id="price"></span> <input id="price-field" class="w-1/4 rounded-lg my-4 text-base px-2 py-1 text-black" type="text" placeholder="Enter your Amount">TK</h4>
+                <div>
+                    <input id="coupon-field" class="mt-4 px-2 py-1 rounded-lg mx-auto" type="text" placeholder="Enter your coupon">
+                    
+                </div>
+                <button id="submit-btn" class="bg-rose-500 px-4 py-1 rounded-lg hover:bg-rose-700 text-white font-semibold mt-5">Submit</button>
+
+            </div>
+        </section>
+    </main>
+    <script src="js/discount.js"></script>
+</body>
+</html>
